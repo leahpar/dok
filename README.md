@@ -30,6 +30,8 @@ cd <project-name>
 
 ### Création des containers
 
+Configuration des paramètres postgres dans `docker-compose.yml`, puis
+
 ```bash
 docker-compose build
 ```
@@ -46,7 +48,7 @@ docker-compose up
 docker-compose exec php composer create-project symfony/website-skeleton .
 ```
 
-```
+```dotenv
 # app/.env
 DATABASE_URL=postgresql://<user>:<password>@<container>:5432/<dbname>?serverVersion=11&charset=utf8
 ```
