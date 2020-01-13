@@ -24,8 +24,8 @@ docker run --name postgis \
 ## I ♥ docker  
 
 ```bash
-git clone [...]
-cd [...]
+git clone https://github.com/leahpar/dok <project-name>
+cd <project-name>
 ```
 
 ### Création des containers
